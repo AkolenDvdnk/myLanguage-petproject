@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdbool.h": "c",
-        "common.h": "c"
+        "common.h": "c",
+        "memory.h": "c",
+        "chunk.h": "c"
     }
 }
