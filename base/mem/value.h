@@ -1,7 +1,7 @@
 #ifndef persimmon_value_h
 #define persimmon_value_h
 
-#include "common.h"
+#include "../inc/common.h"
 
 typedef double Value;
 
