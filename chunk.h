@@ -1,7 +1,7 @@
 #ifndef persimmon_chunk_h
 #define persimmon_chunk_h
 
-#include "../inc/common.h"
+#include "common.h"
 #include "value.h"
 
 typedef enum{

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "debug.h"
-#include "../mem/value.h"
+#include "value.h"
 
 void disassembleChunk(Chunk* chunk, const char* name) {
     printf("== %s ==\n", name);
