@@ -4,7 +4,7 @@ OPT=-O0
 CFLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT)
 
 CFILES=main.c chunk.c memory.c value.c debug.c
-OBJECTS=main.o chunk.o memory.c value.o debug.o
+OBJECTS=main.o chunk.o memory.o value.o debug.o
 
 BINARY=bin
 

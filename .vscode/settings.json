@@ -4,6 +4,8 @@
         "common.h": "c",
         "memory.h": "c",
         "chunk.h": "c",
-        "value.h": "c"
-    }
+        "value.h": "c",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
