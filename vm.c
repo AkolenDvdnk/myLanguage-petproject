@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "common.h"
+#include "debug.h"
 #include "vm.h"
 
 VM vm;
@@ -48,7 +49,7 @@ static InterpretResult run()
             printf(" ]");
         }
         printf("\n");
-        disassembleInstruction(vm.chunk, (int)(vp.ip - vm.chunk->code));
+        disassembleInstruction(vm.chunk, (int)(vm.ip - vm.chunk->code));
 #endif
 
         uint8_t instruction;
@@ -56,10 +57,13 @@ static InterpretResult run()
         {
         case OP_CONSTANT:
         {
-            Value constant = READ_CONSTANT;
+            Value constant = READ_CONSTANT();
             push(constant);
             break;
         }
+        case OP_NEGATE:
+        push(-pop());
+        break;
         case OP_RETURN:
         {
             printValue(pop());
