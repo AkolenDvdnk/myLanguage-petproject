@@ -3,8 +3,8 @@ INCDIRS=-I.
 OPT=-O0
 CFLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT)
 
-CFILES=main.c chunk.c memory.c value.c debug.c vm.c
-OBJECTS=main.o chunk.o memory.o value.o debug.o vm.o
+CFILES=main.c chunk.c memory.c value.c debug.c vm.c scanner.c compiler.c
+OBJECTS=main.o chunk.o memory.o value.o debug.o vm.o scanner.o compiler.o
 
 BINARY=bin
 
