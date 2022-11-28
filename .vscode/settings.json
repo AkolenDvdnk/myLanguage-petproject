@@ -6,7 +6,8 @@
         "chunk.h": "c",
         "value.h": "c",
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "scanner.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
