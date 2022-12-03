@@ -7,7 +7,14 @@
         "value.h": "c",
         "stdlib.h": "c",
         "stdio.h": "c",
-        "scanner.h": "c"
+        "scanner.h": "c",
+        "type_traits": "c",
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "limits": "c",
+        "new": "c",
+        "typeinfo": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
