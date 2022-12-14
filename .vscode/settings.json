@@ -14,7 +14,8 @@
         "concepts": "c",
         "limits": "c",
         "new": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "object.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
